@@ -1,0 +1,59 @@
+﻿input[type=text]{
+    background-color: paleturquoise;
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 20px 0;
+    border: 3px solid;
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left-color: greenyellow;
+    border-bottom-color: blue;
+    border-right-color: yellow;
+    border-top-color: orangered;
+    transition: width 0.3s ease-in-out;
+
+
+}
+input[type=password]{
+    background-color: darkorange;
+    width: 300px; 
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 20px 0;
+    border: 3px solid ;
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left-color: greenyellow;
+    border-bottom-color: blue;
+    border-right-color: yellow;
+    border-top-color: orangered;
+    transition: width 0.3s ease-in-out;    
+}
+
+
+input[placeholder="Search"]{
+    text-align: center;
+    color:rgb(225, 0, 255);
+}
+input[placeholder="First Name"]{
+    text-align: center;
+    color:tomato;
+}
+input[placeholder="Last Name"]{
+    text-align: center;
+    color:rgb(18, 1, 255);
+}
+input[placeholder="Password"]{
+    text-align: center;
+    color:black;
+}
+input:focus{
+    width: 100%;
+   
+}
+form{
+    text-align: center;
+}
